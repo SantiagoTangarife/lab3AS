@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Facultad.
+    -->
+    <changeSet id="20230426053622-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="decano_id"
+                                 baseTableName="facultad"
+                                 constraintName="fk_facultad__decano_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="decano"/>
+
+        <addForeignKeyConstraint baseColumnNames="vice_decano_id"
+                                 baseTableName="facultad"
+                                 constraintName="fk_facultad__vice_decano_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="vice_decano"/>
+    </changeSet>
+</databaseChangeLog>

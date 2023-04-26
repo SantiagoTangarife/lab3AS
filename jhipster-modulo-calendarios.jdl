@@ -1,0 +1,49 @@
+
+entity Calendario{
+    semestre String
+    publicacionOferta Instant
+    inicioMatriculas Instant 
+    finMatriculas Instant
+    inicioAjustes Instant
+    finAjustes Instant
+    inicioClases Instant
+    finClases Instant
+    inicioExamenesFinales Instant
+    finExamenesFinales Instant
+    inicioValidaciones Instant
+    finValidaciones Instant
+    inicioHabilitaciones Instant
+    finHabilitaciones Instant
+    terminacionOficinal Instant 
+}
+
+entity Facultad{
+    nombre String
+}
+
+entity Decano{
+    nombre String
+    email String unique
+    oficina String    
+    nameFacultad String
+}
+
+entity ViceDecano{
+    nombre String
+    email String unique
+    oficina String    
+    nameFacultad String
+}
+
+relationship OneToOne{
+	Facultad{decano} to Decano
+    Facultad{viceDecano} to ViceDecano
+}
+
+relationship ManyToOne{
+	Calendario{facultad} to Facultad
+}
+
+paginate all with infinite-scroll
+service all with serviceImpl 
+

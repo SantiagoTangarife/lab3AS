@@ -1,0 +1,27 @@
+{
+  "lab3FabricaApp": {
+    "decano": {
+      "home": {
+        "title": "Decanos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Decano",
+        "createOrEditLabel": "Create or edit a Decano",
+        "notFound": "No Decanos found"
+      },
+      "created": "A new Decano is created with identifier {{ param }}",
+      "updated": "A Decano is updated with identifier {{ param }}",
+      "deleted": "A Decano is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Decano {{ id }}?"
+      },
+      "detail": {
+        "title": "Decano"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "email": "Email",
+      "oficina": "Oficina",
+      "nameFacultad": "Name Facultad"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "lab3FabricaApp": {
+    "viceDecano": {
+      "home": {
+        "title": "Vice Decanos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vice Decano",
+        "createOrEditLabel": "Create or edit a Vice Decano",
+        "notFound": "No Vice Decanos found"
+      },
+      "created": "A new Vice Decano is created with identifier {{ param }}",
+      "updated": "A Vice Decano is updated with identifier {{ param }}",
+      "deleted": "A Vice Decano is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vice Decano {{ id }}?"
+      },
+      "detail": {
+        "title": "Vice Decano"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "email": "Email",
+      "oficina": "Oficina",
+      "nameFacultad": "Name Facultad"
+    }
+  }
+}

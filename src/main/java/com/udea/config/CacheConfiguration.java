@@ -48,6 +48,10 @@ public class CacheConfiguration {
             createCache(cm, com.udea.domain.User.class.getName());
             createCache(cm, com.udea.domain.Authority.class.getName());
             createCache(cm, com.udea.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.udea.domain.Calendario.class.getName());
+            createCache(cm, com.udea.domain.Facultad.class.getName());
+            createCache(cm, com.udea.domain.Decano.class.getName());
+            createCache(cm, com.udea.domain.ViceDecano.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

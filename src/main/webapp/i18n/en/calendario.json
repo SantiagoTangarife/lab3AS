@@ -1,0 +1,39 @@
+{
+  "lab3FabricaApp": {
+    "calendario": {
+      "home": {
+        "title": "Calendarios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Calendario",
+        "createOrEditLabel": "Create or edit a Calendario",
+        "notFound": "No Calendarios found"
+      },
+      "created": "A new Calendario is created with identifier {{ param }}",
+      "updated": "A Calendario is updated with identifier {{ param }}",
+      "deleted": "A Calendario is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Calendario {{ id }}?"
+      },
+      "detail": {
+        "title": "Calendario"
+      },
+      "id": "ID",
+      "semestre": "Semestre",
+      "publicacionOferta": "Publicacion Oferta",
+      "inicioMatriculas": "Inicio Matriculas",
+      "finMatriculas": "Fin Matriculas",
+      "inicioAjustes": "Inicio Ajustes",
+      "finAjustes": "Fin Ajustes",
+      "inicioClases": "Inicio Clases",
+      "finClases": "Fin Clases",
+      "inicioExamenesFinales": "Inicio Examenes Finales",
+      "finExamenesFinales": "Fin Examenes Finales",
+      "inicioValidaciones": "Inicio Validaciones",
+      "finValidaciones": "Fin Validaciones",
+      "inicioHabilitaciones": "Inicio Habilitaciones",
+      "finHabilitaciones": "Fin Habilitaciones",
+      "terminacionOficinal": "Terminacion Oficinal",
+      "facultad": "Facultad"
+    }
+  }
+}

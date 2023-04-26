@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426053624",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "vice_decano",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "oficina",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameFacultad",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ViceDecano",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

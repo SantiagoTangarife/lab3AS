@@ -1,0 +1,82 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426053621",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "calendario",
+  "fields": [
+    {
+      "fieldName": "semestre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "publicacionOferta",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioMatriculas",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finMatriculas",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioAjustes",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finAjustes",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioClases",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finClases",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioExamenesFinales",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finExamenesFinales",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioValidaciones",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finValidaciones",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "inicioHabilitaciones",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "finHabilitaciones",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "terminacionOficinal",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Calendario",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "facultad",
+      "relationshipName": "facultad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

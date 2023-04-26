@@ -1,0 +1,26 @@
+{
+  "lab3FabricaApp": {
+    "facultad": {
+      "home": {
+        "title": "Facultads",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Facultad",
+        "createOrEditLabel": "Crear o editar Facultad",
+        "notFound": "Ningún Facultads encontrado"
+      },
+      "created": "Un nuevo Facultad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Facultad ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Facultad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Facultad {{ id }}?"
+      },
+      "detail": {
+        "title": "Facultad"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "decano": "Decano",
+      "viceDecano": "Vice Decano"
+    }
+  }
+}

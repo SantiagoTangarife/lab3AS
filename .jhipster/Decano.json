@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426053623",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "decano",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "oficina",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameFacultad",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Decano",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

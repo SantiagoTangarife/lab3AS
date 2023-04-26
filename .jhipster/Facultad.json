@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426053622",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "facultad",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Facultad",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "decano",
+      "ownerSide": true,
+      "relationshipName": "decano",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "viceDecano",
+      "ownerSide": true,
+      "relationshipName": "viceDecano",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}
